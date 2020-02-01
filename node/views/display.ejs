@@ -1,0 +1,15 @@
+<home>
+<body>
+<center>DISPLAY PAGE
+    <table border="3">
+    <tr><td>NAME</td><td>LEVEL</td><td>TIME</td></tr>
+    <% for (let data of todos) { %>
+<tr>
+       <td><%= data.name %></td>
+         <td><%= data.level %></td>
+      <td><%= data.time %></td>
+</tr>
+<% } %>
+    </table></center>
+</body>
+</html>
